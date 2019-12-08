@@ -1,11 +1,11 @@
 # Джабраилов Федор Федорович
 Задачи   | Лабораторные |
 | -------- | ----------- |
-| Задача 1 | Лабораторная 1 |
-| Задача 2 |   |
-| Задача 3 |   |
-| Задача 4 |   |
-| Задача 5 |   |
+| [Задача 1][] [Тест 7]: https://github.com/fedyad99/pr/blob/master/tasks/1.cpp | Лабораторная 1 |
+| [Задача 1][] [Тест 7]: https://github.com/fedyad99/pr/blob/master/tasks/1.cpp |   |
+| [Задача 1][] [Тест 7]: https://github.com/fedyad99/pr/blob/master/tasks/1.cpp |   |
+| [Задача 1][] [Тест 7]: https://github.com/fedyad99/pr/blob/master/tasks/1.cpp |   |
+| [Задача 1][] [Тест 7]: https://github.com/fedyad99/pr/blob/master/tasks/1.cpp |   |
 | Задача 6 |   |
 | Задача 7 |   |
 | Задача 8 |   |
