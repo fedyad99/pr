@@ -8,7 +8,7 @@ int main(){
 	cout << "Введите a, b, xn, xk, dx" << endl;
 	cin >> a >> b >> xn >> xk >> dx;
 	double y, min, max;
-	for (double x = xn; x < xk+0.05; x += dx) {
+	for (double x = xn; x <= xk; x += dx) {
 		
 		if (x <= a) {
 			y = exp(x);
