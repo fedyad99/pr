@@ -1,47 +1,52 @@
-#include "stdafx.h"
-#include <iostream>
-#include <clocale>
 #include <Windows.h>
+#include <iostream>
 using namespace std;
 
-void sort(int* arr, int len) {
+void sort(int* a,int size) {
 	int temp;
-	for (int i = 0; i < len - 1; i++) {
-		for (int j = 0; j < len - i - 1; j++) {
-			if (arr[j] > arr[j + 1]) {
-				temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
+	for (int i = 0; i < size - 1; i++) {
+		for (int j = 0; j < size - i - 1; j++) {
+			if (a[j] < a[j + 1]) {
+				temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
 			}
 		}
 	}
-	return;
+}
+
+void print(int* a, int size) {
+	for (int i = 0; i < size; i++) cout << a[i] << " ";
+	cout << endl;
 }
 
 int main() {
-	setlocale(LC_ALL, "russian");
-	int a;
-	cin >> a;
-	int* mas = new int[a];
-	for (int i = 0; i < a; i++) {
-		cin >> mas[i];
-		cout << endl << endl;
-		sort(mas, i + 1);
-		for (int j = 0; j < i + 1; j++) {
-			if (j < 4) {
-				for (int k = j; k >= 0; k--) {
-					cout << mas[k] << " ";
-				}
-			}
-			else {
-				for (int k = 4; k >= 0; k--) {
-					cout << mas[k] << " ";
-				}
-			}
-			cout << endl;
+	int n, temp, max, maxIndex;
+	cin >> n;
+	int a[5] = { NULL };
+	
+	cin >> a[0];
+	cout <<endl<< a[0] << endl;
+	max = a[0];
+	maxIndex = 0;
+	for (int i = 1; i < n; i++) {
+		if (i < 5) {
+			cin >> a[i];
+			sort(a, i + 1);
+			max = a[0];
 		}
-		cout << endl << endl;
+		else {
+			cin >> temp;
+			if (temp < max) {
+				a[maxIndex] = temp;
+				sort(a, 5);
+				max = a[0];
+				maxIndex = 0;
+			}
+		}
+		i < 5 ? print(a, i + 1) : print(a, 5);
 	}
+
 	system("pause");
 	return 0;
 }
