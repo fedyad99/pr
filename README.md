@@ -28,3 +28,4 @@
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/25/25.cpp">Задача 25</a>|| 
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/26.cpp">Задача 26</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/27.cpp">Задача 27</a>  | |
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/28.cpp">Задача 28</a>  | |
