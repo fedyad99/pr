@@ -29,5 +29,5 @@
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/26.cpp">Задача 26</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/27.cpp">Задача 27</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/28.cpp">Задача 28</a>  | |
-| Задача 29  | |
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/29.cpp">Задача 29</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/30.cpp">Задача 30</a>  | |
