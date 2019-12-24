@@ -10,7 +10,7 @@
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/7.cpp">Задача 7</a>    | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/8.cpp">Задача 8</a>    | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/9.cpp">Задача 9</a>    | |
-| <a href="https://github.com/fedyad99/pr/blob/master/tasks/10.cpp">Задача 10</a>  | |
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/10.cpp">***</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/11.cpp">Задача 11</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/12.cpp">Задача 12</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/13.cpp">Задача 13</a>  | |
