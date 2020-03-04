@@ -32,3 +32,4 @@
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/29.cpp">Задача 29</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/30.cpp">Задача 30</a>  | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/T31.cpp">Задача 31</a>  | |
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/T32.cpp">Задача 32</a>  | |
