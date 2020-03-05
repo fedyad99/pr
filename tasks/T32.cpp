@@ -23,9 +23,7 @@ std::string ItoOPN(std::string str)
 	std::string temp = "";
 	std::stack<char> Stack;
 
-	int MoreDigit = 0, // Если в числе больше одного разряда
-		SpacesCount = 0, // Чтобы учитывать пробелы при выводе
-		j; // Для определения разряда
+	int j; // Для определения разряда
 	for (int i = 0; i < str.size(); i++) 
 	{
 		if(str[i] != ' ')
@@ -46,8 +44,6 @@ std::string ItoOPN(std::string str)
 					temp += ' ';
 				}
 				i += j - 1;
-				MoreDigit += j - 1;
-				SpacesCount++;
 			}
 			else if (Correct(str[i])) 
 			{
@@ -117,7 +113,7 @@ double Calculate(std::string str)
 
 			if(Correct(str[i]))
 			{
-				double a, b = 2;
+				double a, b;
 				switch (str[i])
 				{
 				case '+':
