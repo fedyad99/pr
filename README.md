@@ -1,12 +1,12 @@
 # Джабраилов Федор Федорович
-Задачи   | Лабораторные |
-| -------- | ----------- |
+Задачи   | Лабораторные | 
+| -------- | ----------- | 
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/1.cpp">Задача 1</a>    |<a href="https://github.com/fedyad99/pr/blob/master/lab1/lab1.md">Лабораторная 1</a>    |
-| <a href="https://github.com/fedyad99/pr/blob/master/tasks/2.cpp">Задача 2</a>    | Лабораторная 2|
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/2.cpp">Задача 2</a>    | Лабораторная 2| 
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/3.cpp">Задача 3</a>    | Лабораторная 3|
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/4.cpp">Задача 4</a>    |<a href="https://github.com/fedyad99/pr/blob/master/lab4/lab4.md">Лабораторная 4</a>|
-| <a href="https://github.com/fedyad99/pr/blob/master/tasks/5.cpp">Задача 5</a>    | |
-| <a href="https://github.com/fedyad99/pr/blob/master/tasks/6.cpp">Задача 6</a>    | |
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/5.cpp">Задача 5</a>    | Лабораторная 5 |
+| <a href="https://github.com/fedyad99/pr/blob/master/tasks/6.cpp">Задача 6</a>    | Лабораторная 6 |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/7.cpp">Задача 7</a>    | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/8.cpp">Задача 8</a>    | |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/9.cpp">Задача 9</a>    | |
