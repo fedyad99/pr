@@ -1,4 +1,4 @@
- <a href="https://github.com/fedyad99/pr/edit/master/README.md">  Назад </a>
+ <a href="https://github.com/fedyad99/pr/blob/master/README.md">  Назад </a>
 
 Задачи   |
 | -------- |
