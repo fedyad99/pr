@@ -1,7 +1,7 @@
  <a href="https://github.com/fedyad99/pr/blob/master/README.md">  Назад </a>
 
 Задачи   |
-| -------- |
+| :-: |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/1.cpp">Задача 1</a>    |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/2.cpp">Задача 2</a>    |
 | <a href="https://github.com/fedyad99/pr/blob/master/tasks/3.cpp">Задача 3</a>    | 
