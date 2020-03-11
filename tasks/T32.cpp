@@ -62,9 +62,13 @@ std::string ItoOPN(std::string str)
 					else 
 						if(Priority(Stack.top()) == Priority(str[i]) && isdigit(temp[temp.size() - 2]) && Stack.top() != '(')
 						{
-							temp = temp + Stack.top() + ' ';
-							Stack.pop();
-							Stack.push(str[i]);
+                                                        if(Priority(Stack.top()) == 3) Stack.push(str[i]);
+							else
+                                                        {       
+                                                                temp = temp + Stack.top() + ' ';
+							        Stack.pop();
+							        Stack.push(str[i]);
+                                                        } 
 						}
 						else Stack.push(str[i]);
 				}
