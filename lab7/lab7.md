@@ -63,7 +63,7 @@
    Нажать по файлу проекта правой кнопкой мыши и выбрать **Показать в проводнике**
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/5.png?raw=true" alt=""></p>
    
-   <p align="center"><i>Рис. 5. - Открытие папки с проекток средствами Qt Creator</p>
+   <p align="center"><i>Рис. 5. - Открытие папки с проекток средствами Qt Creator</i></p>
    
 5. Какое расширение файла-проекта используется Qt Creator?
    
@@ -81,7 +81,7 @@
    Нажать левой кнопкой мыши перед номером строки. Чтобы убрать нажать еще раз
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/6.png?raw=true" alt=""></p>
    
-   <p align="center"><i>Рис. 6. - Установка breakpoint</p>
+   <p align="center"><i>Рис. 6. - Установка breakpoint</i></p>
 
 9. Создайте программу со следующим кодом:
    ``` c++
@@ -108,13 +108,13 @@
 
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/7.png?raw=true" alt=""></p>
    
-   <p align="center"><i>Рис. 7. - Значение переменных в 5 строке</p>
+   <p align="center"><i>Рис. 7. - Значение переменных в 5 строке</i></p>
    
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/8.png?raw=true" alt=""></p>
-   <p align="center"><i>Рис. 8. - Значение переменных в 6 строке</p>
+   <p align="center"><i>Рис. 8. - Значение переменных в 6 строке</i></p>
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/9.png?raw=true" alt=""></p>
    
-   <p align="center"><i>Рис. 9. - Значение переменных в 7 строке</p>
+   <p align="center"><i>Рис. 9. - Значение переменных в 7 строке</i></p>
    
 10. Закройте проект и перейдите на вкладку «Начало» => «Примеры»;
 11. Выберите проект «Calculator Form Example». Для этого можно воспользоваться строкой поиска;
@@ -124,15 +124,15 @@
 15. В инспекторе проекта выберите файл «main.cpp». В этом файле установите курсор на слово «show» в строке calculator.show(); и нажмите F1. Изучите справочную информацию. Таким же образом можно получить справку по любому объекту/методу/полю доступному в Qt;
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/10.png?raw=true" alt=""></p>
 
-   <p align="center"><i>Рис. 10. - Справка по методу show()</p>
+   <p align="center"><i>Рис. 10. - Справка по методу show()</i></p>
 16. В инспекторе проекта выберите файл «Формы» => «calculatorform.ui» и дважды счёлкните ЛКМ;
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/11.png?raw=true" alt=""></p>
 
-   <p align="center"><i>Рис. 11. - Редактор форм</p>
+   <p align="center"><i>Рис. 11. - Редактор форм</i></p>
 17. Вы попали на вкладку «Дизайн». На форме замените английский текст на русский. Пересоберите проект.
    <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab7/img/12.png?raw=true" alt=""></p>
 
-   <p align="center"><i>Рис. 12. - Замена на русский язык</p>
+   <p align="center"><i>Рис. 12. - Замена на русский язык</i></p>
 
 
 # Вывод
