@@ -7,4 +7,5 @@
 |    |<a href="https://github.com/fedyad99/pr/blob/master/lab4/lab4.md"><a href="https://github.com/fedyad99/pr/blob/master/lab4/4.md">Лабораторная 4</a></a>|
 |     | <a href="https://github.com/fedyad99/pr/blob/master/lab5/5.md">Лабораторная 5</a> |
 |     | <a href="https://github.com/fedyad99/pr/blob/master/lab6/6.md">Лабораторная 6</a> |
-|  | Лабораторная 7  |
+|  | <a href="https://github.com/fedyad99/pr/blob/master/lab7/lab7.md">Лабораторная 7</a>  |
+|  | Лабораторная 8<a href=""></a>  |
