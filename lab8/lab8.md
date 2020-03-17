@@ -34,7 +34,7 @@
 
 
 
-1. 
+1. Скриншот окна настроек Qt Creator после настройки для сборки android приложений:
 <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab8/img/1.png?raw=true" alt=""></p>
 <p align="center"><i>Рис. 1. - Окно настроек Qt Creator после настройки для сборки android приложений</i></p>
 
@@ -42,7 +42,7 @@
 <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab8/img/2.png?raw=true" alt=""></p>
 <p align="center"><i>Рис. 2. - Analog Clock</i></p>
 
-3. 
+3. Скриншот экрана с запущенным приложением на устройстве:
 <p align="center"><img src="https://github.com/fedyad99/pr/blob/master/lab8/img/3.jpg?raw=true" alt=""></p>
 <p align="center"><i>Рис. 3. - Скриншот с мобильно телефона</i></p>
 
