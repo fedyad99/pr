@@ -57,7 +57,7 @@ TEST(Calculator, isDoorOpen_unlock)
 
     EXPECT_CALL(latch, getDoorStatus())
             .Times(AtLeast(1))
-            .WillOnce(Return(DoorStatus::OPEN));;
+            .WillOnce(Return(DoorStatus::OPEN));
     bool res = lc.isDoorOpen();
     EXPECT_TRUE(res);
 }
