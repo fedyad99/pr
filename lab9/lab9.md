@@ -80,7 +80,7 @@ TEST(Calculator, wait)
     LockController lc = LockController(&keypad, &latch);
 
     EXPECT_CALL(keypad, wait())
-            .Times(AtLeast(1));
+            .Times(1);
     lc.wait();
 }
 
@@ -92,7 +92,7 @@ TEST(Calculator, isDoorOpen_lock)
 
 
     EXPECT_CALL(latch, getDoorStatus())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(DoorStatus::CLOSE));
     bool res = lc.isDoorOpen();
     EXPECT_FALSE(res);
@@ -106,7 +106,7 @@ TEST(Calculator, isDoorOpen_unlock)
 
 
     EXPECT_CALL(latch, getDoorStatus())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(DoorStatus::OPEN));
     bool res = lc.isDoorOpen();
     EXPECT_TRUE(res);
@@ -120,7 +120,7 @@ TEST(Calculator, unlockDoor)
 
 
     EXPECT_CALL(latch, open())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(DoorStatus::OPEN));
 
     EXPECT_EQ(lc.unlockDoor(), DoorStatus::OPEN);
@@ -133,7 +133,7 @@ TEST(Calculator, lockDoor)
     LockController lc = LockController(&keypad, &latch);
 
     EXPECT_CALL(latch, close())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(DoorStatus::CLOSE));
 
     EXPECT_EQ(lc.lockDoor(), DoorStatus::CLOSE);
@@ -146,11 +146,11 @@ TEST(Calculator, hardWareCheck_ok)
     LockController lc = LockController(&keypad, &latch);
 
     EXPECT_CALL(keypad, isActive())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(true));
 
     EXPECT_CALL(latch, isActive())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(true));
 
     auto res = lc.hardWareCheck();
@@ -204,7 +204,7 @@ TEST(Calculator, isCorrectPassword)
     ans.password = "0000";
 
     EXPECT_CALL(keypad, requestPassword())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(ans));
 
     auto res = lc.isCorrectPassword();
@@ -222,7 +222,7 @@ TEST(Calculator, isCorrectPassword_error)
     ans.password = "1234";
 
     EXPECT_CALL(keypad, requestPassword())
-            .Times(AtLeast(1))
+            .Times(1)
             .WillOnce(Return(ans));
 
     auto res = lc.isCorrectPassword();
@@ -296,6 +296,7 @@ TEST(Calculator, resetPassword_2)
     auto res = lc.isCorrectPassword();
     EXPECT_TRUE(res); 
 }
+
 
 #endif // TST_TESTDIVISIONBYZERO_H
 ```
