@@ -252,10 +252,10 @@ TEST(Calculator, resetPassword)
 
     EXPECT_CALL(keypad, requestPassword())
             .Times(1)
-            .WillOnce(Return(old_pass));
+            .WillOnce(Return(new_pass));
 
     auto res = lc.isCorrectPassword();
-    EXPECT_FALSE(res); //Старый пароль не подходит
+    EXPECT_TRUE(res); 
 }
 
 TEST(Calculator, resetPassword_2)
@@ -291,10 +291,10 @@ TEST(Calculator, resetPassword_2)
 
     EXPECT_CALL(keypad, requestPassword())
             .Times(1)
-            .WillOnce(Return(old_pass));
+            .WillOnce(Return(new_pass));
 
     auto res = lc.isCorrectPassword();
-    EXPECT_FALSE(res); //Старый пароль не подходит
+    EXPECT_TRUE(res); 
 }
 
 #endif // TST_TESTDIVISIONBYZERO_H
