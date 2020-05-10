@@ -70,7 +70,8 @@ TEST(Calculator, unlockDoor)
 
 
     EXPECT_CALL(latch, open())
-            .Times(AtLeast(1));
+            .Times(AtLeast(1))
+            .WillOnce(Return(DoorStatus::OPEN));
 
     EXPECT_EQ(lc.unlockDoor(), DoorStatus::OPEN);
 }
@@ -82,10 +83,10 @@ TEST(Calculator, lockDoor)
     LockController lc = LockController(&keypad, &latch);
 
     EXPECT_CALL(latch, close())
-            .Times(AtLeast(1));
+            .Times(AtLeast(1))
+            .WillOnce(Return(DoorStatus::CLOSE));
 
-    auto res = lc.lockDoor();
-    EXPECT_EQ(res, DoorStatus::CLOSE);
+    EXPECT_EQ(lc.lockDoor(), DoorStatus::CLOSE);
 }
 
 TEST(Calculator, hardWareCheck_ok)
