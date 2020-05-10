@@ -9,3 +9,4 @@
 |     | <a href="https://github.com/fedyad99/pr/blob/master/lab6/6.md">Лабораторная 6</a> |
 |  | <a href="https://github.com/fedyad99/pr/blob/master/lab7/lab7.md">Лабораторная 7</a>  |
 |  | <a href="https://github.com/fedyad99/pr/blob/master/lab8/lab8.md">Лабораторная 8</a>  |
+|  | <a href="https://github.com/fedyad99/pr/blob/master/lab9/lab9.md">Лабораторная 9</a>  |
